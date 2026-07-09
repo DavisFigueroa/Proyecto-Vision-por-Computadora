@@ -48,7 +48,7 @@ python main.py
 4. Se abrirá una ventana mostrando el video con las detecciones en tiempo real. Presionar **ESC** para cerrar la ventana y finalizar la ejecución.
 
 ## Ejemplo de inferencia
-cv.imwrite("Mineral.png", frame_a_mostrar)
+![Ejemplo de detección de minerales](Mineral.png)
 *Detección de minerales sobre un frame del video, con caja delimitadora, clase y confianza asociada.*
 
 
