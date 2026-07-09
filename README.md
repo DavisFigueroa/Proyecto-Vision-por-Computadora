@@ -15,7 +15,34 @@ Las clases detectadas por el modelo son minerales tales como **piedra solar**, *
 - **pathlib**: incluida en la librería estándar de Python, usada para el manejo de rutas de archivos.
 
 ### Instalación
-
+Se recomienda crear un entorno virtual antes de instalar las dependencias, para evitar conflictos con otros proyectos de Python.
+ 
+**1. Crear el entorno virtual:**
+ 
+```shell
+python -m venv .venv
+```
+ 
+**2. Activar el entorno virtual:**
+ 
+```shell
+# Windows (CMD)
+.venv\Scripts\activate.bat
+ 
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+ 
+# Windows (Git Bash)
+source .venv/Scripts/activate
+ 
+# macOS / Linux
+source .venv/bin/activate
+```
+ 
+Una vez activado, debería aparecer `(.venv)` al inicio de la línea de la terminal.
+ 
+**3. Instalar las librerías:**
+ 
 ```shell
 python -m pip install --upgrade pip
 pip install ultralytics opencv-python
