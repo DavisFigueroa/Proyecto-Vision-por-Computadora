@@ -30,8 +30,7 @@ pip install ultralytics opencv-python
 ├── best.pt               # Modelo YOLO entrenado (Avance 3)
 ├── Minerales.mp4         # Video de prueba 1
 ├── Minerales2.mp4        # Video de prueba 2
-├── images/
-│   └── ejemplo_deteccion.jpg   # Imagen de ejemplo con inferencia
+├── Mineral.png           #Imagen de ejemplo con inferencia  
 └── README.md
 ```
 
