@@ -26,7 +26,7 @@ pip install ultralytics opencv-python
 ## Estructura del repositorio
 
 ```
-├── main.py              # Script principal de inferencia
+├── inference.py          # Script principal de inferencia
 ├── best.pt               # Modelo YOLO entrenado (Avance 3)
 ├── Minerales.mp4         # Video de prueba 1
 ├── Minerales2.mp4        # Video de prueba 2
@@ -41,7 +41,7 @@ pip install ultralytics opencv-python
 3. Ejecutar:
 
 ```shell
-python main.py
+python inference.py
 ```
 
 4. Se abrirá una ventana mostrando el video con las detecciones en tiempo real. Presionar **ESC** para cerrar la ventana y finalizar la ejecución.
